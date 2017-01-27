@@ -7,4 +7,4 @@ app.get('/:time', function (req, res) {
   res.end(JSON.stringify({'unix': Date.parse(date), 'natural': naturalDate}))
 });
 
-app.listen(3000)
+app.listen( process.env.PORT||3000)
