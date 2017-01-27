@@ -1,0 +1,23 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Javascript timestamp microservice built as part a project for freecodecamp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marckimbrey/timestamp-microservice.git"
+  },
+  "author": "marc kimbrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marckimbrey/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/marckimbrey/timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
