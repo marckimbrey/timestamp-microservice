@@ -1,0 +1,28 @@
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+p, li, code {
+  font-size: 1.2em;
+}
+
+.example {
+  color: red;
+  background: #bbb;
+  padding: .5em 1em;
+  margin: 1em 0;
+  display: inline-block;
+
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) {
+  .body {
+    font-size: 18px;
+  }
+}
